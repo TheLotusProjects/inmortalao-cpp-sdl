@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92FDF779-B3CA-49C1-AA01-50DD5FD66AD3}</ProjectGuid>
+    <RootNamespace>Cliente</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../Cliente</OutDir>
+    <LibraryPath>C:\Users\ransomware\Desktop\old-iao-sdl\Cliente\Codigo Cliente\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\ransomware\Desktop\old-iao-sdl\Cliente\Codigo Cliente\Cliente\SDL2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_gfx.lib;SDL2_ttf.lib;SDL2_mixer.lib;SDL2_image.lib;msvcrtd.lib;msvcrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="administradorRecursos.cpp" />
+    <ClCompile Include="armas.cpp" />
+    <ClCompile Include="cabezas.cpp" />
+    <ClCompile Include="capa1.cpp" />
+    <ClCompile Include="capa2.cpp" />
+    <ClCompile Include="capa3.cpp" />
+    <ClCompile Include="capa4.cpp" />
+    <ClCompile Include="cascos.cpp" />
+    <ClCompile Include="clima.cpp" />
+    <ClCompile Include="cuerpos.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="escudos.cpp" />
+    <ClCompile Include="fuentes.cpp" />
+    <ClCompile Include="fxs.cpp" />
+    <ClCompile Include="grafico.cpp" />
+    <ClCompile Include="graficoFx.cpp" />
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="mapa.cpp" />
+    <ClCompile Include="npcs.cpp" />
+    <ClCompile Include="objetos.cpp" />
+    <ClCompile Include="particula.cpp" />
+    <ClCompile Include="particulaIndividual.cpp" />
+    <ClCompile Include="particulas.cpp" />
+    <ClCompile Include="personaje.cpp" />
+    <ClCompile Include="programa.cpp" />
+    <ClCompile Include="resource.cpp" />
+    <ClCompile Include="screenResolution.cpp" />
+    <ClCompile Include="superficie.cpp" />
+    <ClCompile Include="textura.cpp" />
+    <ClCompile Include="timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="administradorRecursos.h" />
+    <ClInclude Include="armas.h" />
+    <ClInclude Include="cabezas.h" />
+    <ClInclude Include="capa1.h" />
+    <ClInclude Include="capa2.h" />
+    <ClInclude Include="capa3.h" />
+    <ClInclude Include="capa4.h" />
+    <ClInclude Include="cascos.h" />
+    <ClInclude Include="clima.h" />
+    <ClInclude Include="cuerpos.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="escudos.h" />
+    <ClInclude Include="fuentes.h" />
+    <ClInclude Include="fxs.h" />
+    <ClInclude Include="grafico.h" />
+    <ClInclude Include="graficoFx.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="mapa.h" />
+    <ClInclude Include="frmMain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="npcs.h" />
+    <ClInclude Include="objetos.h" />
+    <ClInclude Include="particula.h" />
+    <ClInclude Include="particulaIndividual.h" />
+    <ClInclude Include="particulas.h" />
+    <ClInclude Include="personaje.h" />
+    <ClInclude Include="programa.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="screenResolution.h" />
+    <ClInclude Include="superficie.h" />
+    <ClInclude Include="textura.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="type.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cliente.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Cliente\Recursos\Interface\modotextodown.bmp" />
+    <Image Include="..\..\Cliente\Recursos\Interface\modotextoover.bmp" />
+    <Image Include="..\..\Cliente\Recursos\Interface\Todo.bmp" />
+    <Image Include="frmMain.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

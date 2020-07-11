@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\programa">
+      <UniqueIdentifier>{20c1fa30-1816-42be-964f-d4fd325710bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\personaje">
+      <UniqueIdentifier>{c83d0cde-b945-42c6-bf01-b1fd495d6f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\cargadores">
+      <UniqueIdentifier>{f5c7a4a2-fd17-43c5-a2f0-eecaca3d8bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\motorGrafico">
+      <UniqueIdentifier>{36b3f1ce-e937-437b-905f-d704c6b67d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="programa.cpp">
+      <Filter>Archivos de código fuente\programa</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="mapa.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="resource.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="textura.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="screenResolution.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="administradorRecursos.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="personaje.cpp">
+      <Filter>Archivos de código fuente\personaje</Filter>
+    </ClCompile>
+    <ClCompile Include="capa1.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="capa2.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="capa3.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="capa4.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="grafico.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="graficoFx.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="superficie.cpp">
+      <Filter>Archivos de código fuente\motorGrafico</Filter>
+    </ClCompile>
+    <ClCompile Include="particula.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="particulas.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="fuentes.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="cabezas.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de código fuente\programa</Filter>
+    </ClCompile>
+    <ClCompile Include="clima.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="cuerpos.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="armas.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="cascos.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="escudos.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="fxs.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="npcs.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="objetos.cpp">
+      <Filter>Archivos de código fuente\cargadores</Filter>
+    </ClCompile>
+    <ClCompile Include="particulaIndividual.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="programa.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="mapa.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="textura.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="screenResolution.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="frmMain.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="administradorRecursos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="personaje.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="capa1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="capa2.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="capa3.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="capa4.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="grafico.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="graficoFx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="superficie.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="particula.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="particulas.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="fuentes.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="clima.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="cuerpos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="cabezas.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="cascos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="fxs.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="armas.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="escudos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="objetos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="npcs.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="particulaIndividual.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMain.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Cliente.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="frmMain.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="..\..\Cliente\Recursos\Interface\Todo.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="..\..\Cliente\Recursos\Interface\modotextodown.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="..\..\Cliente\Recursos\Interface\modotextoover.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

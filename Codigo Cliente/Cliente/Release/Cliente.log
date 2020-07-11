@@ -1,0 +1,29 @@
+﻿Compilación iniciada a las 29/12/2014 16:30:57.
+     1>Proyecto "C:\Users\User\Desktop\Trabajo\inmortalao\Codigo\Cliente\Cliente.vcxproj" en el nodo 2 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt engine.cpp graficos.cpp ini.cpp Main.cpp mapa.cpp programa.cpp resource.cpp screenResolution.cpp textura.cpp
+         engine.cpp
+         graficos.cpp
+         ini.cpp
+         Main.cpp
+         mapa.cpp
+         programa.cpp
+         resource.cpp
+         screenResolution.cpp
+         textura.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Trabajo\inmortalao\Codigo\Release\Cliente.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Desktop\Trabajo\inmortalao\Codigo\Release\Cliente.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Trabajo\inmortalao\Codigo\Release\Cliente.lib" /MACHINE:X86 /SAFESEH Release\engine.obj
+         Release\graficos.obj
+         Release\ini.obj
+         Release\Main.obj
+         Release\mapa.obj
+         Release\programa.obj
+         Release\resource.obj
+         Release\screenResolution.obj
+         Release\textura.obj
+     1>LINK : fatal error LNK1561: se debe definir el punto de entrada
+     1>Compilación del proyecto terminada "C:\Users\User\Desktop\Trabajo\inmortalao\Codigo\Cliente\Cliente.vcxproj" (Rebuild destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:03.31
