@@ -1,17 +1,16 @@
 # Overall
 
-This code contains three main projects Client, Map Editor and Particle Editor. Those are using a library created by me called 'JicLib' which is in charge of all Dx11 rendering stuff.
-
-Furthermore, this project contains a basic c++ networking server, which is using a non relational database to store entities.
+This code contains just one main project with all necessary resources to get into.
 
 # How to install
 
+Steps to get everything working on Windows
 
+https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvsnet2010u/index.php
 
 # Images
 
-![]()
-
+![](https://github.com/JicLotus/inmortalao-cpp-sdl/blob/master/Images/InmortalAO%207_11_2020%202_01_27%20AM.png?raw=true)
 
 # Video
 
