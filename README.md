@@ -14,5 +14,5 @@ https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvsnet2010u/index.php
 
 # Video
 
-[![Watch the video](https://www.youtube.com/watch?v=shvqUnj8ggQ)
+[![Watch the video(https://img.youtube.com/vi/shvqUnj8ggQ/hqdefault.jpg)](https://www.youtube.com/watch?v=shvqUnj8ggQ)
 
